@@ -432,3 +432,15 @@ h3.uppercase {
   color: #ffffff;
   font-size: 11px;
   border-radius: 2px; }
+
+.search-box-wrapper {
+  margin-bottom: calc(var(--g-gutter) * 2); }
+  .search-box-wrapper .search-term {
+    margin-bottom: 10px; }
+  .search-box-wrapper .search-box input[type=text] {
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid var(--g-color-border);
+    padding: 6px 15px;
+    border-radius: 100px;
+    font-size: 14px; }

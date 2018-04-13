@@ -19,7 +19,7 @@ export default class FeedGridItem extends Component {
             <strong>Author:</strong> {data.author}
           </p>
           <div className="feed__tags">
-            {data.tags.split(' ').slice(0, 10).map((tag, index) => (
+            {data.tags && data.tags.split(' ').slice(0, 10).map((tag, index) => (
               <span className="tag" key={index}>{tag}</span>
             ))}
           </div>
