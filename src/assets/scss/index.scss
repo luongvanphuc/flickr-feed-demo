@@ -1,4 +1,15 @@
+// Import mixins
+@import "./mixins/display";
+@import "./mixins/flexbox";
+
 // Import shared stylesheets
 @import "./shares/variables.scss";
 @import "./shares/normalizes.scss";
 @import "./shares/typographies.scss";
+@import './shares/helpers';
+@import "./shares/layout.scss";
+
+// Import modules
+@import "./modules/site-header";
+@import "./modules/site-footer";
+@import "./modules/feed";

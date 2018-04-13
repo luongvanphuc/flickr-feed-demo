@@ -1,0 +1,33 @@
+@mixin height-of-width($percent) {
+  &:before {
+    content: "";
+    padding-top: $percent;
+    display: table;
+  }
+}
+
+@mixin visibility($value) {
+  @if $value == hidden {
+    opacity: 0;
+    visibility: $value;
+  } @else if $value == visible {
+    opacity: 1;
+    visibility: $value;
+  }
+}
+
+@mixin center-margin() {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@mixin center-block($width: null, $maxWidth: null) {
+  @if ($width) {
+    width: $width;
+  }
+  @if ($maxWidth) {
+    max-width: $maxWidth;
+  }
+  margin-left: auto;
+  margin-right: auto;
+}

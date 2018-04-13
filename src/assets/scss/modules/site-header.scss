@@ -1,0 +1,13 @@
+#site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  height: var(--g-site-header-height);
+  line-height: var(--g-site-header-height);
+  padding: 0 var(--g-gutter);
+  background-color: #ffffff;
+  box-shadow: var(--g-box-shadow-bottom);
+  z-index: var(--g-z-index-header);
+}

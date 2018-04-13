@@ -1,0 +1,11 @@
+#site-page {
+  background-color: #f5f5f5;
+  margin-top: var(--g-site-header-height);
+  min-height: calc(100vh - var(--g-site-header-height) - var(--g-site-footer-height));
+  padding: 40px 0;
+}
+
+.wrapper-fixed {
+  @include center-block(100%, var(--g-size-width));
+  padding: 0 var(--g-gutter);
+}
